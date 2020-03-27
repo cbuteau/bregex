@@ -1,0 +1,29 @@
+{
+  "name": "bregex",
+  "version": "1.0.0",
+  "description": "Commandline REGEX builder tool.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cbuteau/bregex.git"
+  },
+  "keywords": [
+    "regex",
+    "commandline",
+    "inquirer"
+  ],
+  "author": "Christopher W Buteau <cbuteau@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cbuteau/bregex/issues"
+  },
+  "homepage": "https://github.com/cbuteau/bregex#readme",
+  "dependencies": {
+    "chalk": "3.0.0",
+    "inquirer": "7.1.0",
+    "regex": "0.1.1"
+  }
+}
