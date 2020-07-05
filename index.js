@@ -34,10 +34,23 @@ var changeRegex = function() {
     ]).then(function(resultsAct) {
       switch (resultsAct.activity) {
         case 'Edit':
-        console.log('Edit');
+          console.log('Edit');
           break;
         case 'Test':
-        console.log('Test');
+          console.log('Test');
+          inquirer.prompt([
+            {
+              type: 'input',
+              name: 'test',
+              default: ''
+            }
+          ]).then(function(results) {
+            if (current.test(results.test)) {
+              console.log('PASS test');
+            } else {
+              console.log('FAIL test');
+            }
+          });
           break;
       }
     });
