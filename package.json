@@ -24,7 +24,8 @@
   "homepage": "https://github.com/cbuteau/bregex#readme",
   "dependencies": {
     "chalk": "3.0.0",
-    "inquirer": "7.1.0"
+    "inquirer": "7.1.0",
+    "regex-parser": "2.2.11"
   },
   "devDependencies": {
     "puppeteer": "5.2.1"

@@ -1,6 +1,8 @@
 
 const DEBUG = false;
 
+var RegexParser = require("regex-parser");
+
 const START_OPTS = DEBUG ? {
   slowMo: 250,
   headless: false,
